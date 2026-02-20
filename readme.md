@@ -41,10 +41,8 @@ open ~/.zshrc
 ### Thêm alias:
 
 ```bash
-alias newlp='git clone https://github.com/USERNAME/landing-core.git $1 && cd $1 && npm pkg set name="$1" && rm -rf .git && git init'
+alias newlp='git clone https://github.com/ducdoan1806/landing-core.git $1 && cd $1 && npm pkg set name="$1" && rm -rf .git && git init'
 ```
-
-> ⚠️ Thay `USERNAME` bằng username github của bạn.
 
 ### Reload terminal:
 
