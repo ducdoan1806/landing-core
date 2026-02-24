@@ -9,7 +9,8 @@
     "build:css": "sass scss:build/css --style=compressed --no-source-map",
     "build:html": "cpy index.html build",
     "build:js": "cpy js build",
-    "build": "npm run clean && npm run build:css && npm run build:html && npm run build:js"
+    "build:assets": "cpy assets build",
+    "build": "npm run clean && npm run build:css && npm run build:html && npm run build:js && npm run build:assets"
   },
   "author": "",
   "license": "ISC",
