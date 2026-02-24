@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "dev": "sass --watch scss/main.scss:css/main.min.css --style=compressed --no-source-map",
+    "dev": "sass --watch scss:css --style=compressed --no-source-map",
     "clean": "rimraf build",
-    "build:css": "sass scss/main.scss build/css/main.min.css --style=compressed --no-source-map",
+    "build:css": "sass scss:build/css --style=compressed --no-source-map",
     "build:html": "cpy index.html build",
     "build:js": "cpy js build",
     "build": "npm run clean && npm run build:css && npm run build:html && npm run build:js"
